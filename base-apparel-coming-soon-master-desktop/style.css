@@ -1,0 +1,117 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width:1440px){
+    body{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .container{
+        display:flex;
+        width:1500px;
+        height:1000px;
+        background-image:url('images/bg-pattern-desktop.svg');
+    }
+    
+    .wrapper{
+        padding: 50px 100px 50px 150px;
+        width:1000px;
+    }
+    
+    .logoImage{
+        height:30px;
+        width:160px;
+    }
+    
+    .texts{
+        padding-top:10px;
+    }
+    
+    .were{
+       font-size:80px;
+       font-weight:300;
+       color: hsl(0, 36%, 70%);
+    }
+    
+    .coming{
+       font-size:80px;
+       font-weight:600;
+       position:relative;
+       bottom:100px;
+       color: hsl(0, 6%, 24%);
+    }
+    
+    .soon{
+       font-size:80px;
+       font-weight:600;
+       position:relative;
+       bottom:170px;
+       color: hsl(0, 6%, 24%);
+    }
+    
+    .description{
+        position:relative;
+        bottom:170px;
+        color:hsl(0, 36%, 70%)
+    }
+    
+    .image{
+        width:900px;
+        height:800px;
+        background-image:url('images/hero-desktop.jpg');
+        background-repeat:no-repeat;
+    }
+    
+    .emailInputBox{
+        width:450px;
+        height:50px;
+        border-radius: 30px 30px 30px 30px;
+        border:solid 1px hsl(0, 36%, 70%);
+        position:relative;
+        bottom:130px;
+        
+    }
+    
+    .emailInput{
+        width:415px;
+        height:40px;
+        border:none;
+        position:relative;
+        top:3px;
+        left:20px;
+        font-weight:300;
+        padding:0;
+    }
+    .emailInput:focus{
+        outline:none;
+    }
+    
+    .arrow{
+        padding:17px 37px 17px 37px;
+        background: linear-gradient(270deg, hsl(0, 74%, 74%), hsl(0, 80%, 86%));
+        border-radius:30px 30px 30px 30px;
+        position:relative;
+        bottom:185px;
+        left:365px;
+        outline-color: hsl(0, 6%, 24%);
+        box-shadow: 0 5px 5px hsl(0, 6%, 24%);
+    }
+    
+    .errorIcon{
+        position:relative;
+        bottom:198px;
+        left:225px;
+        visibility:hidden;
+    }
+    
+    .errorMessage{
+        color:hsl(0, 93%, 68%);
+        font-size:13px;
+        position:relative;
+        bottom:195px;
+        left:20px;
+        visibility:hidden;
+    }
+}
